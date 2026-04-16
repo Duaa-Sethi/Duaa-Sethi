@@ -1,30 +1,10 @@
-## Hi there 👋
-
-<!--
-**Duaa-Sethi/Duaa-Sethi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on My User interface Project...
-- 🌱 I’m currently learning
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ## Hi, I'm Dua Sethi💫
 
 - 🔭 I’m currently working on My User interface Project...
 - 💬 I’m a First Year Student in Computer Science
 - 💻 My passion is Software Development/Coding and Hardware Electronics
-- 🌱 Currently learning: Java and c# language
-  (https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers/)
-- 📫 Reach me: [duairfansethi@gmail.com]
-  (mailto:duairfansethi@gmail.com) / [LinkedIn]
-  (https://https://www.linkedin.com/in/dua-irfan-sethi-32944838b/)
+- 🌱 Currently learning: [Java and c# language](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers/)
+- 📫 Reach me: [duairfansethi@gmail.com](mailto:duairfansethi@gmail.com) / [LinkedIn](https://www.linkedin.com/in/dua-irfan-sethi-32944838b/)
 
 ## ⚙My Tech Stack
 
