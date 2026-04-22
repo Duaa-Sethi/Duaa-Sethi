@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #0a1628;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+
+  /* dont memorize, copy paste background defs */
+  background-image: url(../assets/images/starry\ sky\ animated\ gif\ -\ Google\ Search.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero a {
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.hero article {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+section:hover article {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
