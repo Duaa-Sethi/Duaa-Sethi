@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+
+  /* dont memorize, copy paste background defs */
+  background-image: url(../assets/images/starry\ sky\ animated\ gif\ -\ Google\ Search.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section a {
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-radius: 20px; /* px fine for offsets */
+}
+
+article {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+section:hover article {
+  opacity: 1;
+}
+
+/* nav mods */
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+}
+/* ─── Tablet & Desktop (min-width: 640px) ─── */
+@media screen and (min-width: 640px) {
+  .hero__name {
+    font-size: 3.5rem;
+  }
+
+  .projects__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+}
+
+/* ─── Desktop (min-width: 900px) ─── */
+@media screen and (min-width: 900px) {
+  . {
+    font-size: 4rem;
+  }
+
+  .hero {
+    padding: 5rem 0 var(--spacing-md);
+  }
+}

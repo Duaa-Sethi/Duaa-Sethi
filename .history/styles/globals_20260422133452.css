@@ -7,7 +7,6 @@
 /* CROSS PAGE STYLES */
 body {
   color: white;
-  margin:0;
   font-family: "main font", Verdana, sans-serif;
 }
 
@@ -23,7 +22,4 @@ a {
   font-size: 0.75rem;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 /* NAV mods*/
