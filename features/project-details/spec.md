@@ -6,7 +6,7 @@ Implement project.html which is the page that shows the full details of one proj
 
 ## Designs
 
-![Project Detail Sketch](../../assets/IMG_4091.jpeg)
+![target layout](../../assets/IMG_4091.jpeg)
 
 ## Inspiration
 
@@ -16,7 +16,7 @@ with the home page so same light background, clean layout and simple style.
 ## Work
 
 - A back button at the top that takes you back to the home page
-  Header: A large, semantic <h1> project title to define the page intent.
+- A big project title at the top of the page
 - A description section explaining what the project is and why I built it
 - A tech stack section showing what languages and tools I used
 - A section with at least one screenshot or image of the project
@@ -31,4 +31,4 @@ with the home page so same light background, clean layout and simple style.
 - Tech stack is listed clearly
 - At least one project image or screenshot is showing
 - GitHub link opens in a new tab
-- A fully responsive layout that matches the clean style of index.html
+- The style looks consistent with index.html
