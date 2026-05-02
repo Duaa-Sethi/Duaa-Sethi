@@ -191,51 +191,15 @@ footer {
   padding: 1.5rem;
   background-color: black;
 }
-footer p {
-  font-size: 0.85rem;
-  opacity: 0.6;
-  margin: 0 0 0.75rem 0;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.footer-links a {
-  font-size: 0.85rem;
-}
 
 @media only screen and (min-width: 600px) {
-  .hero h1 {
+  h1 {
     font-size: 4rem;
-  }
-
-  .about {
-    flex-direction: row;
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .hero h1 {
+  h1 {
     font-size: 5rem;
-  }
-  .projects {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .about {
-    max-width: 900px;
   }
 }

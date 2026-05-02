@@ -227,15 +227,7 @@ footer p {
 }
 
 @media only screen and (min-width: 992px) {
-  .hero h1 {
+  h1 {
     font-size: 5rem;
-  }
-  .projects {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .about {
-    max-width: 900px;
   }
 }
