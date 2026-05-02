@@ -6,9 +6,9 @@
 
 /* CROSS PAGE STYLES */
 body {
-  font-family: "main font", Verdana, sans-serif;
   color: white;
   margin: 0;
+  font-family: "main font", Verdana, sans-serif;
 }
 
 h1 {

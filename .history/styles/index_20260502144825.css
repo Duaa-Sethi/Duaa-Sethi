@@ -1,33 +1,31 @@
 body {
+  margin: 0;
   background-color: #0a1628;
 }
 
-/* NAV */
 nav {
   position: sticky;
   top: 0;
   background-color: black;
-  padding: 0 1.5rem;
 }
 
 nav ul {
   display: flex;
   justify-content: flex-end;
-  gap: 1.5rem;
-  padding: 1rem 0;
+  list-style: none;
+  margin: 0;
 }
 
-nav ul li a {
-  font-size: 0.9rem;
+nav ul li {
+  list-style: none;
+  margin: 1rem;
 }
-
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;
-  padding: 2rem 1.5rem;
+  height: 100vh;
 
   /* dont memorize, copy paste background defs */
   background-image: url(../assets/images/starry\ sky\ animated\ gif\ -\ Google\ Search.gif);
@@ -36,30 +34,20 @@ nav ul li a {
   background-repeat: no-repeat;
 }
 
-.hero h1 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-}
-
-.hero p {
-  font-size: 1rem;
-  opacity: 0.75;
-  margin: 0 0 1.5rem 0;
-}
-
 .hero a {
   border: 2px solid white;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem;
   border-radius: 20px;
-  font-size: 0.9rem;
 }
 
-.hero a:hover {
-  background-color: white;
-  color: #0a1628;
-  text-decoration: none;
+.hero article {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 
+section:hover article {
+  opacity: 1;
+}
 /* ABOUT */
 .about {
   display: flex;
@@ -124,66 +112,6 @@ nav ul li a {
   padding: 0.3rem 0.85rem;
   font-size: 0.8rem;
 }
-/* PROJECTS */
-.projects {
-  padding: 4rem 1.5rem;
-  text-align: center;
-}
-.projects h2 {
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.card {
-  background-color: #111c2e;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 1.5rem;
-  text-align: left;
-}
-
-.card:hover {
-  border-color: rgba(255, 255, 255, 0.4);
-}
-
-.card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  opacity: 0.8;
-  margin: 0 0 0.5rem 0;
-}
-
-.card .tech {
-  font-size: 0.75rem;
-  opacity: 0.5;
-  margin: 0.75rem 0;
-}
-
-.card a {
-  display: inline-block;
-  border: 1px solid white;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-}
-
-.card a:hover {
-  background-color: white;
-  color: #0a1628;
-  text-decoration: none;
-}
-
 footer {
   text-align: center;
   padding: 1.5rem;

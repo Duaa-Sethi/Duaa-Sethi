@@ -6,9 +6,9 @@
 
 /* CROSS PAGE STYLES */
 body {
-  font-family: "main font", Verdana, sans-serif;
   color: white;
   margin: 0;
+  font-family: "main font", Verdana, sans-serif;
 }
 
 h1 {
@@ -20,10 +20,7 @@ a {
   text-decoration: none;
   color: white;
 }
-h2,
-h3 {
-  margin: 0;
-}
+
 a:hover {
   text-decoration: underline;
 }

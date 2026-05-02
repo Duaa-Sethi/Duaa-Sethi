@@ -139,50 +139,6 @@ nav ul li a {
   flex-direction: column;
   gap: 1.5rem;
 }
-.card {
-  background-color: #111c2e;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 1.5rem;
-  text-align: left;
-}
-
-.card:hover {
-  border-color: rgba(255, 255, 255, 0.4);
-}
-
-.card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card p {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  opacity: 0.8;
-  margin: 0 0 0.5rem 0;
-}
-
-.card .tech {
-  font-size: 0.75rem;
-  opacity: 0.5;
-  margin: 0.75rem 0;
-}
-
-.card a {
-  display: inline-block;
-  border: 1px solid white;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
-}
-
-.card a:hover {
-  background-color: white;
-  color: #0a1628;
-  text-decoration: none;
-}
 
 footer {
   text-align: center;
