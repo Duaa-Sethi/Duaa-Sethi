@@ -77,6 +77,14 @@ nav ul li a {
   object-fit: cover;
   border: 3px solid rgba(255, 255, 255, 0.2);
 }
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .about h2 {
   font-size: 1.75rem;
