@@ -8,11 +8,11 @@
 
 ## ⚙My Tech Stack
 
-C# • JavaScript • Powershell script • Html • CSS
+C# • JavaScript • Powershell • HTML • CSS
 
 ## 🛠 My Favorite Tools
 
-VSCode • Visual Studio • Canva • Storybook • Google Cloud
+VSCode • Visual Studio • Canvas
 
 ## Hobbies
 
