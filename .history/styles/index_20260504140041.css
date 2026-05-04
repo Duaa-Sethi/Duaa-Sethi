@@ -64,14 +64,13 @@ nav ul li a {
 .about {
   display: flex;
   align-items: flex-start;
-  gap: 1.5rem;
-  padding: 3rem 1.5rem;
+  gap: 2rem;
+  padding: 4rem 1.5rem;
   text-align: center;
 }
 
 .about img {
   max-width: 25%;
-
   border-radius: 50%;
   overflow: hidden;
   display: inline-block;
@@ -87,9 +86,6 @@ nav ul li a {
 .about p {
   margin: 0 0 0.5rem 0;
   line-height: 1.6;
-}
-.about-intro {
-  display: none;
 }
 
 .about-list {
@@ -210,35 +206,26 @@ footer p {
 .footer-links a {
   font-size: 0.85rem;
 }
-/* Small screen like mobile */
+
 @media only screen and (min-width: 600px) {
   .hero h1 {
     font-size: 4rem;
   }
-  .about-intro {
-    display: block;
-  }
 
   .about {
     flex-direction: row;
-    align-items: flex-start;
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    padding: 4rem 1.5rem;
-    gap: 2rem;
   }
-  .about img {
-    width: 25%;
-    max-width: 200px;
-  }
+
   .cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
-/* desktop /laptop devices 992 px and > */
+
 @media only screen and (min-width: 992px) {
   .hero h1 {
     font-size: 5rem;

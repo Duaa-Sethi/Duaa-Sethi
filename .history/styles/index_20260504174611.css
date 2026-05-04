@@ -188,6 +188,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+.projects-btn:hover {
+  background-color: white;
+  color: #0a1628;
+  text-decoration: none;
+}
 /* FOOTER */
 
 footer {

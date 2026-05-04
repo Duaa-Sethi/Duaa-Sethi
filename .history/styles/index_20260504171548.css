@@ -63,19 +63,17 @@ nav ul li a {
 /* ABOUT */
 .about {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
 .about img {
-  max-width: 25%;
-
+  width: 40%;
+  max-width: 200px;
   border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
   border: 3px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -210,7 +208,7 @@ footer p {
 .footer-links a {
   font-size: 0.85rem;
 }
-/* Small screen like mobile */
+
 @media only screen and (min-width: 600px) {
   .hero h1 {
     font-size: 4rem;
@@ -238,7 +236,7 @@ footer p {
     justify-content: center;
   }
 }
-/* desktop /laptop devices 992 px and > */
+
 @media only screen and (min-width: 992px) {
   .hero h1 {
     font-size: 5rem;
