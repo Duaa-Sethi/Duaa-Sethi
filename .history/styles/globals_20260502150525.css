@@ -1,29 +1,26 @@
 /* FONT DEFS */
 @font-face {
   font-family: "main font";
-  src: url(../assets/fonts/NewsCycle-Regular.ttf);   
+  src: url(../assets/fonts/NewsCycle-Regular.ttf);
 }
 
 /* CROSS PAGE STYLES */
 body {
-  font-family: "main font", Verdana, sans-serif;
   color: white;
   margin: 0;
+  font-family: "main font", Verdana, sans-serif;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 1.5rem; /* too small for desktop*/
+  font-size: 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: white;
 }
-h2,
-h3 {
-  margin: 0;
-}
+
 a:hover {
   text-decoration: underline;
 }

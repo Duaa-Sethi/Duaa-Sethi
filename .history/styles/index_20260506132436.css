@@ -56,7 +56,7 @@ nav ul li a {
   padding: 2rem 1.5rem;
 
   /* dont memorize, copy paste background defs */
-  background-image: url(../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg); /* my pictures miss alt */
+  background-image: url(../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg /* my pictures miss alt */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

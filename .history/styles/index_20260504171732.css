@@ -2,32 +2,6 @@ body {
   background-color: #0a1628;
 }
 
-/* Scroll snap — https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll_snap/Basic_concepts */
-
-html,
-body {
-  height: 100%;
-  overflow: hidden;
-}
-
-.scroller {
-  height: 100%;
-  max-height: 100dvh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: y mandatory;
-  scroll-padding-top: 3.5rem;
-}
-
-.scroller section {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  min-height: 100dvh;
-  min-height: 100vh;
-  box-sizing: border-box;
-}
-
 /* NAV */
 nav {
   position: sticky;
@@ -56,7 +30,7 @@ nav ul li a {
   padding: 2rem 1.5rem;
 
   /* dont memorize, copy paste background defs */
-  background-image: url(../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg); /* my pictures miss alt */
+  background-image: url(../assets/images/kai-pilger-Ef6iL87-vOA-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,18 +63,17 @@ nav ul li a {
 /* ABOUT */
 .about {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
 .about img {
-  max-width: 25%;
+  width: 40%;
+  max-width: 200px;
   border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
   border: 3px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -235,35 +208,8 @@ footer p {
 .footer-links a {
   font-size: 0.85rem;
 }
-
-/* Tablet and up — document scroll, no snap */
-@media (min-width: 600px) {
-  html,
-  body {
-    height: auto;
-    overflow: visible;
-  }
-
-  .scroller {
-    height: auto;
-    min-height: 100vh;
-    max-height: none;
-    overflow-x: hidden;
-    overflow-y: visible;
-    -webkit-overflow-scrolling: auto;
-    scroll-snap-type: none;
-    scroll-padding-top: 0;
-  }
-
-  .scroller section {
-    scroll-snap-align: none;
-    scroll-snap-stop: normal;
-  }
-
-  .scroller section:not(.hero) {
-    min-height: 0;
-  }
-
+/* Small screen like mobile */
+@media only screen and (min-width: 600px) {
   .hero h1 {
     font-size: 4rem;
   }
@@ -275,14 +221,14 @@ footer p {
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
-    max-width: 800px; /*width uses %*/
+    max-width: 800px;
     margin: 0 auto;
     padding: 4rem 1.5rem;
     gap: 2rem;
   }
   .about img {
     width: 25%;
-    max-width: 200px; /*width uses %*/
+    max-width: 200px;
   }
   .cards {
     flex-direction: row;
@@ -290,8 +236,8 @@ footer p {
     justify-content: center;
   }
 }
-
-@media (min-width: 992px) {
+/* desktop /laptop devices 992 px and up  */
+@media only screen and (min-width: 992px) {
   .hero h1 {
     font-size: 5rem;
   }

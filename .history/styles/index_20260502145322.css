@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: #0a1628;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+
+  /* dont memorize, copy paste background defs */
+  background-image: url(../assets/images/starry\ sky\ animated\ gif\ -\ Google\ Search.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  opacity: 0.75;
+  margin: 0 0 1.5rem 0;
+}
+
+.hero a {
+  border: 2px solid white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.hero a:hover {
+  background-color: white;
+  color: #0a1628;
+  text-decoration: none;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.about h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.6;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+.about-list li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.tools-label {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.tools-list li {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.8rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
