@@ -282,7 +282,7 @@ footer p {
   }
   .about img {
     width: 25%;
-    max-width: 25%;
+    max-width: 200 %;
   }
   .cards {
     flex-direction: row;
