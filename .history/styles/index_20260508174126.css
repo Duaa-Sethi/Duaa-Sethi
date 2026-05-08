@@ -275,7 +275,7 @@ footer p {
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
-    max-width: 800px;
+    max-width: 35%;
     margin: 0 auto;
     padding: 4rem 1.5rem;
     gap: 2rem;

@@ -1,0 +1,10 @@
+body {
+  background-color: #0a1628;
+}
+nav {
+  background-color: black;
+  padding: 0 1.5rem;
+}
+nav ul {
+  display: flex;
+}

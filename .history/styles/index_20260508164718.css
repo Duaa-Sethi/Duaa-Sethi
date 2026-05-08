@@ -275,14 +275,14 @@ footer p {
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
-    max-width: 800px;
+    max-width: 800px; /*width uses %*/
     margin: 0 auto;
     padding: 4rem 1.5rem;
     gap: 2rem;
   }
   .about img {
     width: 25%;
-    max-width: 25%;
+    max-width: 200px; /*width uses %*/
   }
   .cards {
     flex-direction: row;

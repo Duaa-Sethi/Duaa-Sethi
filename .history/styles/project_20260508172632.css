@@ -1,0 +1,21 @@
+body {
+  background-color: #0a1628;
+}
+nav {
+  background-color: black;
+  padding: 0 1.5rem;
+}
+nav ul {
+  display: flex;
+}
+.tag {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+.tag:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
